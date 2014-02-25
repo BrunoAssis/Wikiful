@@ -1,0 +1,6 @@
+<div>
+  <h1><%= @category.name %></h1>
+  <p>There are  <%= @articles.count %> articles under this category: <% @articles.each do |article| %>
+    <br /><%= link_to article.title, article %><% end %>
+  </p>
+</div>
