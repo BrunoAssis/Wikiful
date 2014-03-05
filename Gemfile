@@ -44,3 +44,7 @@ end
 # gem 'debugger', group: [:development, :test]
 
 gem 'faker'
+
+gem 'twitter-bootstrap-rails'
+gem 'less-rails'
+gem 'therubyracer'
